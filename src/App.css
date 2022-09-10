@@ -7,6 +7,18 @@
   pointer-events: none;
 }
 
+.box-list{
+  box-shadow: 1px 2px 7px 0px rgba(110,110,110,0.75);
+  -webkit-box-shadow: 1px 2px 7px 0px rgba(110,110,110,0.75);
+  -moz-box-shadow: 1px 2px 7px 0px rgba(110,110,110,0.75);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.pb-2{
+  padding-bottom: 1rem;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
